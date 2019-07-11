@@ -32,7 +32,61 @@ $caption-font-family: $serif !default;
 @import "minimal-mistakes/skins/_{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 @import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
 
 .page__content {
   font-size: 0.9em;
+}
+
+.author__bio_small {
+  font-size: small !important;
+}
+
+.author__avatar, .author__content, .author__urls-wrapper {
+  text-align: center !important;
+}
+
+.profile_sidebar_item {
+  background-color: #d6d6d6;
+  padding: 6px;
+  border-radius: 6px;
+  border-color: #343434;
+  border-width: 2px;
+  border-style: dotted;
+}
+
+a[href*="//"]:not([href*="mysite.com"]) {
+    /* external link styles, use :before or :after if you want! */
+}
+
+#site-nav .masthead__menu-item {
+  background-color: #e9dcbe;
+  padding: 6px;
+  border-radius: 4px;
+  border-color: #343434;
+  border-width: 1px;
+  border-style: dotted;
+  font-size: 0.8em;
+  margin-left: 5px;
+}
+
+.masthead {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAMklEQVQYlWNgYGAwZkAFxjjEcApgSOKTIGgSVpOxKcKqmGiFRFuNUwCHGFaT8erCGuAAtV8HLQ/j6goAAAAASUVORK5CYII=);
+}
+
+.greedy-nav {
+  background-color: transparent !important;
+}
+
+.site-title {
+  font-family: 'Russo One', sans-serif;
+  font-size: 1.7em;
+}
+
+#main {
+  max-width: 1800px !important;
+}
+
+.masthead__inner-wrap {
+  max-width: 1800px !important;
 }

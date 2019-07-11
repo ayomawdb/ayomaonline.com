@@ -1,6 +1,6 @@
 ---
-title: "Posts by Category"
-layout: categories
+title: "Home"
+layout: home
 permalink: /
 author_profile: true
 ---

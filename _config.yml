@@ -20,7 +20,7 @@ locale                   : "en-US"
 title                    : "Ayoma's Blog"
 title_separator          : "-"
 name                     : "Ayoma Wijethunga"
-description              : "Ayoma's cyber security Blog"
+description              : "Ayoma's cyber security blog"
 url                      : "https://blog.ayoma.me" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "ayomawdb/blog.ayoma.me" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -84,7 +84,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : ayomawdb
 facebook:
   username               :
   app_id                 :
@@ -99,7 +99,7 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google-universal" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          : "UA-143606463-2"
     anonymize_ip         : # true, false (default)
@@ -108,51 +108,41 @@ analytics:
 # Site Author
 author:
   name             : "Ayoma Wijethunga"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "BIO."
+  avatar           : "/assets/images/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Technical Lead at WSO2 Platform Security Team Threat Hunter"
+  bio_small        : "Red Teamer | CTF Lover | Embedded & IoT Security Enthusiast | Coder | Rev Engineer | Exploit Researcher"
   location         : "Sri Lanka"
-  email            : "ayomawdb@gmail.com"
+  email            :
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:your.name@email.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://your-website.com"
+      url: "https://ayoma.me"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/ayomawdb"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/ayomawdb"
 
 # Site Footer
 footer:
   links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://ayoma.me"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/ayomawdb"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url:
+      # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://github.com/ayomawdb"
+
 
 
 # Reading Files
@@ -296,3 +286,6 @@ defaults:
       comments: true
       share: true
       related: true
+
+header:
+  image: /assets/images/header.jpg
