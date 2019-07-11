@@ -4,7 +4,7 @@ categories:
   - Programming
 tags:
   - Assembly
-  - 8086
+  - "8086"
 ---
 
 # Introduction
