@@ -1,8 +1,10 @@
 ---
 title: Guessing Game in Assembly
-date: 2011-06-09T13:07:45+00:00
 categories:
+  - Programming
+tags:
   - Assembly
+  - 8086
 ---
 
 # Introduction
