@@ -304,7 +304,7 @@ If we look at the cookies used by the application, we notice the usual JSESSIONI
 
 If we decode this value, we get the Flag 19:
 
-![image-20190714031857869](/assets/images/2019-07-11-colombo-white-hat-security-ctf001-walk-through/image-20190714031857869.png)
+![image-20190714031845399](/assets/images/2019-07-11-colombo-white-hat-security-ctf001-walk-through/image-20190714031845399.png)
 
 Even-thought we used browser's developer console to look at the cookie value here, it is always better to keep a proxy like `BurpSuite` running in the background during a CTF to:
 
