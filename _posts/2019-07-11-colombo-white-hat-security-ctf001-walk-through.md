@@ -8,7 +8,7 @@ tags:
 
 # What is CTF-001?
 
-[Colombo White Hat Security](https://www.meetup.com/Colombo-White-Hat-Security/) is a group focused on sharing security knowledge with Sri Lankan security enthusiasts and professionals. One objective of this group is to recognize and bring together the individuals interested in security domain and providing them more visibility within the community. This CTF was a part of such effort.
+[Colombo White Hat Security](https://www.meetup.com/Colombo-White-Hat-Security/){:target="_blank"} is a group focused on sharing security knowledge with Sri Lankan security enthusiasts and professionals. One objective of this group is to recognize and bring together the individuals interested in security domain and providing them more visibility within the community. This CTF was a part of such effort.
 
 The other intention was purely to give an opportunity to do some hands-on hacking so that all the participants can learn at least few things out of it.
 
@@ -18,7 +18,7 @@ We had exactly **150 players**. There were **20 flags** hidden in the system.
 - 40 players (26.5%) found over 85% of the flags.
 - 24 players (16%) found all the flags!
 
-[Head over to the scoreboard to see the players](https://docs.google.com/spreadsheets/d/1s1YpymVH-2_3A4ka0dcgeUKjiIozsYTULX1e-lTVYuA/edit#gid=0)!
+[Head over to the scoreboard to see the players](https://docs.google.com/spreadsheets/d/1s1YpymVH-2_3A4ka0dcgeUKjiIozsYTULX1e-lTVYuA/edit#gid=0){:target="_blank"}!
 
 # Difficulty
 
@@ -52,7 +52,7 @@ Due to the same reason we created multiple paths within the CTF. If a player mis
 
 Since the CTF is now over, you can use the VirtualBox (OVA) file available at the following location to setup the CTF server locally.
 
-- [https://ayoma.sgp1.cdn.digitaloceanspaces.com/CTF/ColomboWhuteHatSecurity-CTF-001.ova](https://ayoma.sgp1.cdn.digitaloceanspaces.com/CTF/ColomboWhuteHatSecurity-CTF-001.ova)
+- [https://ayoma.sgp1.cdn.digitaloceanspaces.com/CTF/ColomboWhuteHatSecurity-CTF-001.ova](https://ayoma.sgp1.cdn.digitaloceanspaces.com/CTF/ColomboWhuteHatSecurity-CTF-001.ova){:target="_blank"}
 
 Use "Import Appliance" option from "File" menu to select the "OVA" file and use the default options to complete the process.
 
@@ -225,7 +225,7 @@ Before moving into anything, let's check if the form is vulnerable to SQL inject
 
 If application does not respond this way for a single-quote, that does not mean that the form is not vulnerable to SQL injection. There can be a blind SQL injection possibility. More about those in a separate post!
 
-> *Note: I am hoping to bring back the blog post that was associated with my session on "[SQL Injection in Depth](https://www.slideshare.net/AyomaWijethunga/sql-injection-in-depth-crash-course)". Once done I will update this post with a link.*
+> *Note: I am hoping to bring back the blog post that was associated with my session on "[SQL Injection in Depth](https://www.slideshare.net/AyomaWijethunga/sql-injection-in-depth-crash-course){:target="_blank"}". Once done I will update this post with a link.*
 
 Based on the information we have right now and the error that was generated, we can assume that the SQL query should be similar to:
 
@@ -366,7 +366,7 @@ Let's move back a little and look at images we saw across the challenge and see 
 
 Apart from what you generally see in an image file, there can be metadata stored within. For example, an image file may contain information about the software that was used to create the image, author information, copyright information, etc. EXIF (Exchangeable image file format) is one standard for embedded such information in media files.
 
-`exiftool` is a popular tool that can read and write [different types of metadata related to different file formats](https://www.sno.phy.queensu.ca/~phil/exiftool/#supported).  If we use `exiftool` with the image, we can get the Flag 4 hidden inside the copyright information of the image.
+`exiftool` is a popular tool that can read and write [different types of metadata related to different file formats](https://www.sno.phy.queensu.ca/~phil/exiftool/#supported){:target="_blank"}.  If we use `exiftool` with the image, we can get the Flag 4 hidden inside the copyright information of the image.
 
 ![image-20190714091934681](/assets/images/2019-07-11-colombo-white-hat-security-ctf001-walk-through/image-20190714091934681.png)
 
@@ -392,7 +392,7 @@ We saw another image after we logged into the application. Let's have a closer l
 
 The site says, it's Turing complete, which implies that there maybe something to do with a programming language. If we have another closer look, we notice that the file name is `piet.pnm.png`. Bit of further research shows that there is a programming language called `piet`, which uses colors and color differences to store instructions.
 
-A `npiet` interpreter is available online at [https://www.bertnase.de/npiet/npiet-execute.php](https://www.bertnase.de/npiet/npiet-execute.php). We can use this tool to recover the Flag 20.
+A `npiet` interpreter is available online at [https://www.bertnase.de/npiet/npiet-execute.php](https://www.bertnase.de/npiet/npiet-execute.php){:target="_blank"}. We can use this tool to recover the Flag 20.
 
 ![image-20190714094112213](/assets/images/2019-07-11-colombo-white-hat-security-ctf001-walk-through/image-20190714094112213.png)
 
@@ -624,7 +624,7 @@ Some players used error-based SQL injection techniques to recover the password.
 
  `extractvalue` is a MySQL function commonly used for error based injections. Usage of this function is to extract a value from a XML, based on a provided XPath expression. When we provide a query as the XPath expression, and if the result of the query is not a valid XPath, MySQL will return an error with the value generated after evaluating the query provided as the XPath. This error can be used to exfoliate information,
 
-Here are the values [Sivakumar Prakhash](https://www.linkedin.com/in/prakhashsiva/) used as the username to extract more information:
+Here are the values [Sivakumar Prakhash](https://www.linkedin.com/in/prakhashsiva/){:target="_blank"} used as the username to extract more information:
 
 Extract database name:
 
