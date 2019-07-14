@@ -44,9 +44,9 @@ Due to the same reason we created multiple paths within the CTF. If a player mis
 
 
 
-> ## Let's help the new comers to gradually gain the phase. Doing so, we can also increase the presence of Sri Lankans in HackTheBox!
+> Let's help the new comers to gradually gain the phase. Doing so, we can also increase the presence of Sri Lankans in HackTheBox!
 >
-> ## Therefore, if you are an experienced CTF player, please hold-on and bear with us probably until CTF-004.  
+> Therefore, if you are an experienced CTF player, please hold-on and bear with us probably until CTF-004.  
 
 # Setup (VirtualBox)
 
@@ -84,7 +84,7 @@ nmap -sn 192.168.56.0/24 -oG - | grep Up | cut -d' ' -f2
 
 ## Enumeration
 
-> ## Proper enumeration is the key to success. Always enumerate before moving ahead.
+> Proper enumeration is the key to success. Always enumerate before moving ahead.
 
 If it is a CTF, you may do some basic enumeration first. Thereafter, let the time-consuming checks run in the background (while you do the manual checks on the interest points you found during the basic enumeration).
 
@@ -168,7 +168,7 @@ wfuzz is a web application security fuzzer which can be used to send in differen
 
 In our case, we just want to identify hidden directories / paths in the application. Wfuzz is clearly an overkill for this purpose, but it's better to familiarize with this tool, since it can become handy in many situations.
 
-With the `-w` flag we are providing the wordlist and with `--hc 4004` we ask wfuzz to "(h)ide HTTP response (c)ode 404" and display all other responses. The word `FUZZ` mentioned at the end of the URL instructs wfuzz to substitute that part of the URL with words from the wordlist. 
+With the `-w` flag we are providing the wordlist and with `--hc 4004` we ask wfuzz to "(h)ide HTTP response (c)ode 404" and display all other responses. The word `FUZZ` mentioned at the end of the URL instructs wfuzz to substitute that part of the URL with words from the wordlist.
 
 ![image-20190713161106907](/assets/images/2019-07-11-colombo-white-hat-security-ctf001-walk-through/image-20190713161106907.png)
 
@@ -356,7 +356,7 @@ During an internal run of the same CTF, we discovered that some players looked a
 
 These paths were blocked in the public run of the CTF to prevent unintended paths to the solutions and also to prevent availability impacts.  However, we gave out the Flag 8 if any of these patterns were tried.
 
-> ##### These are very interesting approaches. When you come across a server application you are not fully aware of, it is important to run an instance of it locally and identify how it behaves.
+> These are very interesting approaches. When you come across a server application you are not fully aware of, it is important to run an instance of it locally and identify how it behaves.
 
 ### Image Steganography
 
@@ -692,9 +692,9 @@ We only have Flag 10 left. The `jailed` user account was not a privileged user a
 
 We have all 20 flags!
 
-> ###  If you used an unintended approach that is not mentioned here to get any of the flags, please mention that in a comment.
+> If you used an unintended approach that is not mentioned here to get any of the flags, please mention that in a comment.
 >
-> ###  It's important that we all learn from you!
+> It's important that we all learn from you!
 
 # Feedback
 
@@ -733,9 +733,9 @@ Here are few comments we got and found very helpful in understanding what our au
 
 Based on these ratings and comments we got:
 
-> ## We are more than happy about the final result.
+> We are more than happy about the final result.
 >
-> ## We are convinced that continuing the CTF is worth.
+> We are convinced that continuing the CTF is worth.
 
 # Future CTFs?
 
@@ -762,21 +762,19 @@ Colombo White Hat Security group is driven by few individuals who are interested
 
 There is no company backing us. WSO2 only sponsors for the venue and the food when there is a meetup session organized by the group.
 
-> ### In return for the time we spend creating these CTFs and money we spend on maintaining the deployments, etc., all we expect is the feeling that the local community is learning and taking proper advantage of what we do!
->
+> In return for the time we spend creating these CTFs and money we spend on maintaining the deployments, etc., all we expect is the feeling that the local community is learning and taking proper advantage of what we do!
 
 
 
 Therefore, if we are to provide gifts, t-shirts or awards for the CTF, we won't be able to do more than 1 (or maybe 2) CTFs a year. We don't want to overcomplicate this trying to find new sponsors, etc.
 
-> ### We'll continue this effort, as long as we feel you are interested.
-
+> We'll continue this effort, as long as we feel you are interested.
 
 
 In summary, future CTF will remain free and open, but there will be no awards or gifts, **as of now**.
 
 
 
->  ### Unless, it is one of the annual CTFs we organize, which will be an offline session with limited and selected number of groups or individuals participating.
+> Unless, it is one of the annual CTFs we organize, which will be an offline session with limited and selected number of groups or individuals participating.
 >
->  ### Yes! We are thinking about it... :wink:
+> Yes! We are thinking about it... :wink:
