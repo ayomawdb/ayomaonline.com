@@ -6,9 +6,11 @@ tags:
   - CTF
 ---
 
-[Colombo White Hat Security](https://www.meetup.com/Colombo-White-Hat-Security/){:target="_blank"} is a group focused on sharing security knowledge with Sri Lankan security enthusiasts and professionals. One objective of this group is to recognize and bring together the individuals interested in security domain and providing them more visibility within the community. This CTF is a part of that effort.
+[Colombo White Hat Security](https://www.meetup.com/Colombo-White-Hat-Security/){:target="_blank"} is a group focused on sharing security knowledge with Sri Lankan security enthusiasts and professionals.
 
-The other intention was purely to give an opportunity to do some hands-on hacking so that all the participants can learn at least few things out of it.
+One objective of this group is to recognize and bring together the individuals interested in security domain and providing them more visibility within the community. This CTF is a part of such effort.
+
+The other intention of the CTF is to give an opportunity to do some hands-on hacking so that all the participants can learn at least few things out of it.
 
 For the first CTF, we had exactly **150 players**. There were **20 flags** hidden in the system.
 
@@ -35,12 +37,11 @@ A pattern we saw during feedback gathering was that, **more experienced people (
 
 > Try to be hackthebox.eu
 
-There was one feedback that said so. We honestly don't want to do that or compete with HackTheBox. If you want that level of a challenge and if you have the required skill-set, HackTheBox is already there and it's a great platform to practice. I myself am a VIP member.
+There was one feedback that said so. We value such feedback a lot! However, we honestly don't want to compete with HackTheBox. If you want that level of a challenge and if you have the required skill-set, HackTheBox is already there and it's a great platform to practice. I myself am a VIP member.
 
-Not everyone is there yet. The complicated it becomes at first, someone who has the potential to become a great hacker might loose the interest.
+Not everyone is there yet. The complicated it becomes at first, someone who has the potential to become a great security researcher / hacker might loose the interest.
 
-Due to the same reason we created multiple paths within the CTF. If a player missed one flag (or one path), s/he can still get at least over 50% of the flags.
-
+Due to the same reason we created multiple paths within the CTF. If a player miss one flag (or one path), s/he can still get at least over 50% of the flags.
 
 
 > Let's help the new comers to gradually gain the phase. Doing so, we can also increase the presence of Sri Lankans in HackTheBox!
@@ -53,9 +54,9 @@ Since the CTF is now over, you can use the VirtualBox (OVA) file available at th
 
 - [https://ayoma.sgp1.cdn.digitaloceanspaces.com/CTF/ColomboWhuteHatSecurity-CTF-001.ova](https://ayoma.sgp1.cdn.digitaloceanspaces.com/CTF/ColomboWhuteHatSecurity-CTF-001.ova){:target="_blank"}
 
-Use "Import Appliance" option from "File" menu to select the "OVA" file and use the default options to complete the process.
+Use `Import Appliance` option from `File` menu to select the `OVA` file and use the default options to complete the process.
 
-Make sure that you have enabled a "Host-only Adapter" in "Settings" of the imported virtual machine.
+Make sure that you have enabled a `Host-only Adapter` in `Settings` of the imported virtual machine.
 
 ![image-20190712171537683](/assets/images/2019-07-11-colombo-white-hat-security-ctf001-walk-through/image-20190712171537683.png)
 
@@ -731,10 +732,8 @@ Here are few comments we got and found very helpful in understanding what our au
 > Lesser hints
 
 Based on these ratings and comments we got:
-
-> We are more than happy about the final result.
->
-> We are convinced that continuing the CTF is worth.
+- We are more than happy about the final result.
+- We are convinced that continuing the CTF is worth.
 
 # Future CTFs?
 
@@ -743,7 +742,6 @@ Here is the plan:
 - Make the future CTFs gradually difficult and provide lesser hints.
 - A CTF happens once per 2 months. The frequency will be changed based on the interest patterns.
 - Keep the CTF open for 1 week (including a weekend).
-
 - As we progress, instead of limiting to CTF like challenges, use real vulnerabilities and realistic challenges. This includes:
   - Vulnerable versions of generally used software.
   - Protocol level vulnerabilities (Ex: SAML, OAuth2, OIDC, JWT & SSL/TLS security weaknesses).
@@ -764,8 +762,7 @@ There is no company backing us. WSO2 only sponsors for the venue and the food wh
 > In return for the time we spend creating these CTFs and money we spend on maintaining the deployments, etc., all we expect is the feeling that the local community is learning and taking proper advantage of what we do!
 
 
-
-Therefore, if we are to provide gifts, t-shirts or awards for the CTF, we won't be able to do more than 1 (or maybe 2) CTFs a year. We don't want to overcomplicate this trying to find new sponsors, etc.
+If we are to provide gifts, t-shirts or awards for the CTF, we won't be able to do more than 1 (or maybe 2) CTFs a year. We don't want to overcomplicate this trying to find new sponsors, etc.
 
 > We'll continue this effort, as long as we feel you are interested.
 
