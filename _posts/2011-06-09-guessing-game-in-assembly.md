@@ -7,11 +7,12 @@ tags:
   - "8086"
 ---
 
-# Introduction
+This assembly program is designed to create a very simple game where user is allowed to guess a hard-coded number between 1 and 255. This hard-coded number can be replaced by a randomly generated number using a random number generator for EMU8086, which is bit complex because EMU8086 do not contain an instruction to do this implicitly. Program will output if guess is higher or lower than the input number.
 
-This assembly program is designed to create a very simple game where user is allowed to guess a hard-coded number between 1 and 255. This hard-coded number can be replaced by a randomly generated number using a random number generator for EMU8086, which is bit complex because EMU8086 do not contain an instruction to do this implicitly. Program will output if guess is higher or lower than the input number. The code is well commented so that it can be used by anyone who is interested in learning assembly language.
+Since the code is well commented this program can be used to understand how 8086 CPU works and how to program it.
+<!--more-->
 
-This code is written for EMU8086: [http://www.emu8086.com/](http://www.emu8086.com/)
+This code is written for EMU8086: [http://www.emu8086.com/](http://www.emu8086.com/){:target="_blank"}
 
 # Flow of the Program
 

@@ -6,17 +6,16 @@ tags:
   - CTF
 ---
 
-# What is CTF-001?
-
-[Colombo White Hat Security](https://www.meetup.com/Colombo-White-Hat-Security/){:target="_blank"} is a group focused on sharing security knowledge with Sri Lankan security enthusiasts and professionals. One objective of this group is to recognize and bring together the individuals interested in security domain and providing them more visibility within the community. This CTF was a part of such effort.
+[Colombo White Hat Security](https://www.meetup.com/Colombo-White-Hat-Security/){:target="_blank"} is a group focused on sharing security knowledge with Sri Lankan security enthusiasts and professionals. One objective of this group is to recognize and bring together the individuals interested in security domain and providing them more visibility within the community. This CTF is a part of that effort.
 
 The other intention was purely to give an opportunity to do some hands-on hacking so that all the participants can learn at least few things out of it.
 
-We had exactly **150 players**. There were **20 flags** hidden in the system.
+For the first CTF, we had exactly **150 players**. There were **20 flags** hidden in the system.
 
 - 62 players (41%) found over 50% of the flags.
 - 40 players (26.5%) found over 85% of the flags.
 - 24 players (16%) found all the flags!
+<!--more-->
 
 [Head over to the scoreboard to see the players](https://docs.google.com/spreadsheets/d/1s1YpymVH-2_3A4ka0dcgeUKjiIozsYTULX1e-lTVYuA/edit#gid=0){:target="_blank"}!
 
