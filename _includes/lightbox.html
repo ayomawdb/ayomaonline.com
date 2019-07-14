@@ -201,6 +201,11 @@ $(document).ready(function() {
 		}
 	});
 
+  $(".page__content img:not(.emoji)").click(function(event){
+    event.preventDefault();
+    $('<div class="lightbox"><a id="close"></a><a id="next">&rsaquo;</a><a id="prev">&lsaquo;</a><div class="img" style="background: url(\''+$(this).attr('src')+'\') center center / contain no-repeat;" title="'+$(this).attr('title')+'" ><img src="'+$(this).attr('src')+'" alt="'+$(this).attr('title')+'" /></div><span>'+$(this).attr('title')+'</span></div>').appendTo('body');
+  });
+
 
 });
 
